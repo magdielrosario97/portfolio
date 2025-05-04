@@ -9,6 +9,9 @@ const Hero = () => {
             Veteran and Computer Science student passionate about building clean and practical software.
          </p>
          <div className="flex flex-col sm:flex-row gap-4">
+            <a href="/#about" className="btn-secondary">
+               About Me
+            </a>
             <a href="/#projects" className="btn-primary">
                View Projects
             </a>
