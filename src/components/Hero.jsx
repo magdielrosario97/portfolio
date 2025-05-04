@@ -12,8 +12,11 @@ const Hero = () => {
             <a href="/#about" className="btn-secondary">
                About Me
             </a>
-            <a href="/#projects" className="btn-primary">
-               View Projects
+            <a href="/#skills" className="btn-secondary">
+               Technical Skills
+            </a>
+            <a href="/#projects" className="btn-secondary">
+               Projects
             </a>
             <a href="/#contact" className="btn-secondary">
                Contact Me
