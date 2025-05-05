@@ -11,7 +11,7 @@ This project serves as both a technical portfolio and a learning playground. It 
 -  [React](https://reactjs.org/)
 -  [Vite](https://vitejs.dev/)
 -  [Tailwind CSS](https://tailwindcss.com/)
--  [GitHub Pages / Netlify / Vercel] (planned deployment)
+-  [Vercel](https://vercel.com/)
 
 ## 🚀 Getting Started
 
