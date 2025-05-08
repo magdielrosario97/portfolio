@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="/#contact" className="btn-secondary">
                Contact Me
             </a>
-            <a href="/magdiel_rosario_resume.pdf" className="btn-outline" target="_blank" rel="noopener noreferrer">
+            <a href="/resume_public.pdf" className="btn-outline" target="_blank" rel="noopener noreferrer">
                Resume
             </a>
          </div>
