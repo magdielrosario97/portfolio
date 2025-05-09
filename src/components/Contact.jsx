@@ -9,10 +9,10 @@ const Contact = () => {
             to reach out!
          </p>
          <a
-            href="mailto:magdielrosario97@gmail.com"
+            href="mailto:msrdev.tech@gmail.com"
             className="inline-block mt-4 text-blue-600 hover:text-blue-800 font-medium text-lg"
          >
-            magdielrosario97@gmail.com
+            msrdev.tech@gmail.com
          </a>
       </section>
    );
