@@ -94,7 +94,7 @@ const Contact = () => {
             </label>
             <button
                type="submit"
-               className="w-full bg-emerald-700 text-white py-2 px-4 animate-bounce shadow-xl/30 hover:bg-emerald-800 transition-colors duration-200 cursor-pointer"
+               className="w-full bg-emerald-700 text-white py-2 px-4 animate-bounce shadow-xl/30 hover:bg-emerald-800 transition-colors duration-200 cursor-pointer border rounded"
             >
                Send
             </button>
