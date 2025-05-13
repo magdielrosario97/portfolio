@@ -3,7 +3,9 @@ import React from "react";
 const Hero = () => {
    return (
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-white">
-         <h1 className="text-4xl sm:text-5xl font-extrabold mb-2 text-gray-900">Magdiel S. Rosario Orta</h1>
+         <h1 className="text-4xl sm:text-5xl font-extrabold mb-2 animate-bounce text-gray-900">
+            Magdiel S. Rosario Orta
+         </h1>
          <p className="text-lg sm:text-xl text-gray-600 mb-4">Full-Stack Developer | React • Node.js • Python</p>
          <p className="max-w-xl text-gray-500 mb-6">
             Veteran and Computer Science student passionate about building clean and practical software.
@@ -35,7 +37,7 @@ const Hero = () => {
                <i className="fab fa-github"></i> GitHub
             </a>
             <a
-               href="https://linkedin.com/in/msro97"
+               href="https://linkedin.com/in/msrdev"
                target="_blank"
                rel="noopener noreferrer"
                className="hover:text-blue-700"
