@@ -8,10 +8,19 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+const allowedOrigins = ["http://localhost:5173", "https://portfolio-livid-beta-56.vercel.app"];
+
 const corsOptions = {
-   origin: "http://localhost:5173",
+   origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+         callback(null, true);
+      } else {
+         callback(new Error("Not allowed by CORS"));
+      }
+   },
    methods: ["POST"],
 };
+app.use(cors(corsOptions));
 
 const limiter = rateLimit({
    windowMs: 1 * 60 * 1000, // 1 minute
