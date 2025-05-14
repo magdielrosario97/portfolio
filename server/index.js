@@ -62,10 +62,11 @@ app.post("/contact", async (req, res) => {
    });
 
    const mailOptions = {
-      from: email,
+      from: `Portfolio Contact Form <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
       subject: `${name} sent a message`,
-      text: message,
+      text: `From: ${name} <${email}>\n\n${message}`,
+      replyTo: email,
    };
 
    try {
