@@ -3,12 +3,10 @@ import React from "react";
 const Hero = () => {
    return (
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-white">
-         <h1 className="text-4xl sm:text-5xl font-extrabold mb-2 animate-bounce text-gray-900">
-            Magdiel S. Rosario Orta
-         </h1>
-         <p className="text-lg sm:text-xl text-gray-600 mb-4">Full-Stack Developer | React • Node.js • Python</p>
+         <h1 className="text-4xl sm:text-5xl font-extrabold mb-2 animate-bounce text-gray-900">Magdiel Rosario Orta</h1>
+         <p className="text-lg sm:text-xl text-gray-600 mb-4">Software Engineer | Full-Stack Developer</p>
          <p className="max-w-xl text-gray-500 mb-6">
-            Veteran and Computer Science student passionate about building clean and practical software.
+            U.S. Air Force veteran and Computer Science graduate building full-stack applications and backend systems.
          </p>
          <div className="flex flex-col sm:flex-row gap-4">
             <a href="/#about" className="btn-secondary">
