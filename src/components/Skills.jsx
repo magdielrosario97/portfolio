@@ -4,11 +4,11 @@ const Skills = () => {
    const skillCategories = [
       {
          title: "Languages",
-         skills: ["JavaScript", "Java", "C++", "Python", "SQL", "HTML", "CSS"],
+         skills: ["JavaScript", "TypeScript", "Python", "Java", "C++", "SQL", "HTML", "CSS"],
       },
       {
          title: "Frameworks & Libraries",
-         skills: ["React", "Node.js", "Express", "Tailwind CSS", "Bootstrap", "JQuery"],
+         skills: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
       },
       {
          title: "Databases",
@@ -16,11 +16,11 @@ const Skills = () => {
       },
       {
          title: "Tools",
-         skills: ["Git", "Bash", "GitHub", "VS Code", "Postman", "REST APIs", "Android Studio", "Agile/Scrum"],
+         skills: ["Git", "GitHub", "Bash", "Postman", "Linux (Ubuntu)"],
       },
       {
-         title: "Other",
-         skills: ["Android Development", "TDD", "Debugging", "Embedded Systems"],
+         title: "Practices",
+         skills: ["REST APIs", "Test-Driven Development", "Debugging", "Agile/Scrum"],
       },
    ];
 
