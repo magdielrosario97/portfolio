@@ -30,7 +30,7 @@ const Contact = () => {
       setStatus("Sending... This may take a few seconds. Please don't close the tab.");
 
       try {
-         const res = await fetch("https://portfolio-contact-form-7eia.onrender.com/contact", {
+         const res = await fetch("https://portfolio-spxx.vercel.app/contact", {
             method: "POST",
             headers: {
                "Content-Type": "application/json",
@@ -104,8 +104,8 @@ const Contact = () => {
                      status.includes("sent")
                         ? "text-green-600"
                         : status.includes("wrong") || status.includes("Failed")
-                        ? "text-red-600"
-                        : "text-gray-600"
+                          ? "text-red-600"
+                          : "text-gray-600"
                   }`}
                >
                   {status}
